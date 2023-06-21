@@ -1,0 +1,8 @@
+name: BW-hypixel Quick Buy Migration
+version: '${project.version}'
+main: me.huahuadehaoyeye.migrator.QuickBuyMigrator
+api-version: 1.13
+author: huahuadehaoyeye
+description: A plugin to migrate fast purchase layouts from hypixel
+depend:
+  - BedWars1058

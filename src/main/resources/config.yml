@@ -1,0 +1,30 @@
+# hypixel Quick Buy Migration config
+
+# 插件版本: ${project.version}
+# 作者: huahuadehaoyeye
+# 源码: https://github.com/huahuadehaoyeye/BW-hypixelQuickBuyMigration
+
+# 设置
+
+# hypixel的API密钥.你可以通过加入mc.hypixel.net并输入/api new来获得一个
+hypixel-api-key: ""
+# 如果玩家没有通过Mojang服务器进行认证，则将此设置为false.
+# 警告: 这将允许拥有正版名称的离线玩家同步他们的布局.
+# 按自己要求设置这个选项这个选项(我自己设置的是false)
+online-mode: false
+# 在商店菜单内显示的物品
+shop-item:
+  material: BLAZE_POWDER
+  displayname: "&e从hypixel同步快速购买布局"
+  lore:
+    - "&f点击这里,同步您的hypixel快速购买布局!"
+    - ""
+    - "&7点击这里同步!"
+  slot: 52
+messages:
+  not-premium-player: "&e您似乎不是正版玩家!"
+  migration-started: "&e正在同步您的hypixel快速购买布局..."
+  migration-failed: "&e您似乎没有在hypixel内更改过快速购买布局!"
+  migration-success: "&e您的快速购买布局已更换为hypixel的!"
+
+
